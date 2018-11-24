@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="Main" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="632" height="452"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a9003" binding="Page1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <background color="-16776953"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="264e4" binding="Panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b24a" class="javax.swing.JTextField" binding="welcomeToWhoWantsTextField" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <caretColor color="-13040831"/>
+                  <disabledTextColor color="-1"/>
+                  <dragEnabled value="true"/>
+                  <editable value="false"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Welcome to Who Wants To Be a Zillionaire?"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2aaca" binding="Panel2" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="951df" class="javax.swing.JButton" binding="Player1JButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold" size="18"/>
+                  <foreground color="-1"/>
+                  <opaque value="true"/>
+                  <text value="Single Player"/>
+                </properties>
+              </component>
+              <component id="99814" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="letsplay.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e7639" binding="Page2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties>
+          <background color="-16776953"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="18a71" binding="Panel3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <foreground color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f5ad3" class="javax.swing.JTextField" binding="enterTheNamesOfTextField" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <caretColor color="-12516548"/>
+                  <disabledTextColor color="-1"/>
+                  <editable value="false"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Enter the names of the players participating..."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2a393" binding="Panel4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+              <focusCycleRoot value="false"/>
+              <foreground color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e4a2a" class="javax.swing.JTextField" binding="namePlayer1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16776953"/>
+                  <font name="Copperplate Gothic Bold" size="18"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Player 1's name"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6b345" binding="Panel5" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e0f5" class="javax.swing.JButton" binding="continueButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Continue"/>
+                </properties>
+              </component>
+              <hspacer id="946e6">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a1fe9" binding="Page3" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card3"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="1ecb9" binding="Panel6" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="227ed" class="javax.swing.JButton" binding="beginButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-131587"/>
+                  <text value="Begin"/>
+                </properties>
+              </component>
+              <hspacer id="ae711">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="e9bf3" binding="Panel7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9cc63" class="javax.swing.JTextField" binding="explanationSP">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="900" height="500"/>
+                    <maximum-size width="500" height="300"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16776953"/>
+                  <disabledTextColor color="-1"/>
+                  <dragEnabled value="false"/>
+                  <editable value="false"/>
+                  <font name="Copperplate Gothic Bold" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Welcome! This is the game where big bucks are won, I hope you're ready but most importantly, are you ready to become a zillionaire?"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5f507" binding="Categories" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card5"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="620ce" binding="Panel10" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="41af9" class="javax.swing.JTextField" binding="selectACategory">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <editable value="true"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Select a category..."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7eb47" binding="Panel11" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f7dfe" class="javax.swing.JButton" binding="generalKnowledge">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="General Knowledge"/>
+                </properties>
+              </component>
+              <component id="736c2" class="javax.swing.JButton" binding="geography">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Geography"/>
+                </properties>
+              </component>
+              <component id="5bd08" class="javax.swing.JButton" binding="hipHopMusic">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13040831"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Hip-Hop/RnB"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e8bb5" binding="QuestionPage" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card6"/>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="51d7e" binding="Panel12" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7fd47" class="javax.swing.JTextField" binding="question1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13684945"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="20ea1" class="javax.swing.JTextField" binding="playerSetTextField">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13684945"/>
+                  <font name="Copperplate Gothic Bold" size="14"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f8d7b" binding="Panel13" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3374" class="javax.swing.JButton" binding="option1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <focusable value="true"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="13259" class="javax.swing.JButton" binding="option3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <focusable value="true"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="1ec5e" class="javax.swing.JButton" binding="option2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <focusable value="true"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="87e6a" class="javax.swing.JButton" binding="option4">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <focusable value="true"/>
+                  <font name="Copperplate Gothic Bold" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d9668" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5db3" class="javax.swing.JButton" binding="askThePublicButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Ask the Public"/>
+                </properties>
+              </component>
+              <component id="86fc4" class="javax.swing.JButton" binding="halfAndHalfButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Half and Half"/>
+                </properties>
+              </component>
+              <component id="2c1f1" class="javax.swing.JButton" binding="giveMeAClueButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Give Me a Clue"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="97d2a" binding="StatusPage" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card33"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7563c" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="35889" class="javax.swing.JButton" binding="backToCategoriesButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Back to categories"/>
+                </properties>
+              </component>
+              <component id="f60d8" class="javax.swing.JButton" binding="finishButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Finish"/>
+                </properties>
+              </component>
+              <component id="7599e" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12516548"/>
+                  <font name="Copperplate Gothic Bold"/>
+                  <foreground color="-1"/>
+                  <text value="Next"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fce6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e82c" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16776953"/>
+                  <editable value="false"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a5c4c" class="javax.swing.JTextField" binding="moneyTF">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16776953"/>
+                  <font name="Copperplate Gothic Bold" size="22"/>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d65a0" binding="FinishPage" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card35"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a524e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bd6f8" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="true"/>
+                  <font name="Copperplate Gothic Bold"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="34777" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16776953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e73cb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="thanksforplaying.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
